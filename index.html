@@ -1,3 +1,51 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Abdul Rehman — M.Tech CSE student exploring Digital Forensics, DFIR, and dynamic malware analysis research." />
+  <title>Abdul Rehman | Digital Forensics & Cybersecurity</title>
+  <style>
+    :root { color-scheme: dark; --bg:#080e1b; --panel:#101d32; --line:#26344b; --txt:#edf4ff; --muted:#aabbd3; --accent:#5be4ce; --blue:#80acff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:radial-gradient(ellipse at 85% 0%,#133250 0%,transparent 40%),var(--bg); color:var(--txt); font-family:Inter,system-ui,-apple-system,BlinkMacSystem>
+    a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+    .wrap { max-width:1050px; margin:auto; padding:0 24px; }
+    header { border-bottom:1px solid var(--line); background:rgba(8,14,27,.84); position:sticky; top:0; backdrop-filter:blur(12px); z-index:10; }
+    nav { display:flex; align-items:center; justify-content:space-between; gap:20px; min-height:72px; }
+    .brand { color:var(--txt); font-weight:800; letter-spacing:.02em; }
+    .brand span { color:var(--accent); }
+    .links { display:flex; gap:22px; flex-wrap:wrap; } .links a { color:var(--muted); font-size:.91rem; }
+    main { padding-bottom:80px; }
+    .hero { padding:100px 0 80px; max-width:790px; }
+    .tag { display:inline-block; border:1px solid #346a74; padding:5px 13px; border-radius:100px; color:var(--accent); font-size:.82rem; font-weight:650; letter-spacing:.025em; }
+    h1 { font-size:clamp(2.6rem,7vw,5rem); line-height:1.12; letter-spacing:-.05em; margin:22px 0 12px; }
+    h1 span { color:var(--accent); }
+    .lead { color:var(--muted); font-size:clamp(1.05rem,2.3vw,1.25rem); max-width:680px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .btn { padding:12px 19px; border-radius:10px; background:var(--accent); color:#09202c; font-weight:750; display:inline-block; }
+    .btn.secondary { background:transparent; color:var(--txt); border:1px solid var(--line); }
+    section { padding:48px 0; scroll-margin-top:86px; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.15em; color:var(--accent); font-size:.8rem; font-weight:750; }
+    h2 { margin:8px 0 20px; font-size:clamp(1.6rem,4vw,2.1rem); letter-spacing:-.025em; }
+    p { color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px; }
+    .card { border:1px solid var(--line); border-radius:16px; padding:24px; background:linear-gradient(160deg,rgba(23,42,67,.92),rgba(12,24,42,.95)); }
+    .card h3 { margin:0 0 6px; font-size:1.12rem; }
+    .card p { margin:6px 0 0; }
+    .muted { color:var(--muted); }
+    .pill { display:inline-block; font-size:.78rem; border:1px solid #315e6f; color:var(--accent); padding:4px 10px; border-radius:100px; margin-bottom:10px; }
+    .chips { display:flex; flex-wrap:wrap; gap:10px; }
+    .chip { border:1px solid var(--line); border-radius:9px; padding:8px 13px; background:var(--panel); color:#c9daf1; }
+    ul { padding-left:20px; color:var(--muted); }
+    .research { border-left:3px solid var(--accent); }
+    footer { border-top:1px solid var(--line); color:var(--muted); padding:26px 0; font-size:.88rem; }
+    :focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+    @media (max-width:700px) { nav { flex-direction:column; align-items:flex-start; padding:15px 0; } .links { gap:12px 18px; } .hero { padding:65px 0 35px; } .grid { grid-templat>
+  </style>
+</head>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,14 +94,53 @@
   </style>
 </head>
 <body>
-  <header><nav class="wrap" aria-label="Main navigation"><a class="brand" href="#home">AR<span>.</span> / DFIR</a><div class="links"><a href="#about">About</a><a href="#research">Research</a><a href="#education">Education</a><a href="#certifications">Certificates</a><a href="#contact">Contact</a></div></nav></header>
+  <header><nav class="wrap" aria-label="Main navigation"><a class="brand" href="#home">AR<span>.</span> / DFIR</a><div class="links"><a href="#about">About</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#certifications">Certificates</a><a href="#contact">Contact</a></div></nav></header>
   <main class="wrap">
     <div id="home" class="hero"><span class="tag">Open to internships & research opportunities</span><h1>Hi, I'm <span>Abdul Rehman.</span></h1><div class="lead">M.Tech Computer Science & Engineering student exploring <strong style="color:#edf4ff">Digital Forensics, DFIR, Malware Analysis</strong> and Cybersecurity Research.</div><div class="actions"><a class="btn" href="#research">Explore My Research</a><a class="btn secondary" href="https://github.com/abdulrehman-dfir" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a><a class="btn secondary" href="https://www.linkedin.com/in/abdul-rehman-dfir/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div>
     <section id="about"><div class="eyebrow">01 / About</div><h2>Interested in investigating how attacks happen.</h2><p>I am currently pursuing an M.Tech in Computer Science and Engineering at Graphic Era Hill University. My primary interests are Digital Forensics, Digital Forensics & Incident Response (DFIR), malware behavior, and security research. I am building my practical experience through research planning and hands-on learning.</p><div class="chips"><span class="chip">Digital Forensics</span><span class="chip">DFIR</span><span class="chip">Endpoint Security</span><span class="chip">Malware Analysis</span><span class="chip">Research & Learning</span></div></section>
     <section id="research"><div class="eyebrow">02 / Research</div><h2>Current M.Tech dissertation</h2><article class="card research"><span class="pill">Research & Planning Phase</span><h3>Design and Development of an Automated Cuckoo Sandbox-Based Dynamic Malware Analysis</h3><p>Proposed work exploring the architecture and automation of dynamic malware analysis with Cuckoo Sandbox. Planned topics include isolated virtual environments, process/file/registry/network behavioral artifacts, structured analysis reports, and experiment repeatability.</p><p><strong style="color:var(--txt)">Current status:</strong> Idea, literature review, methodology and system planning. Implementation and testing are not yet complete.</p><p><a href="https://github.com/abdulrehman-dfir/cuckoo-dynamic-malware-analysis" target="_blank" rel="noopener noreferrer">View research repository ↗</a></p></article></section>
-    <section id="education"><div class="eyebrow">03 / Education</div><h2>Academic journey</h2><div class="grid"><div class="card"><h3>M.Tech — Computer Science & Engineering</h3><p>Graphic Era Hill University</p><p>2025 – Present · Pursuing</p></div><div class="card"><h3>B.Tech — Computer Science Engineering</h3><p>Glocal University</p><p>Completed 2025 · First Division</p></div><div class="card"><h3>Diploma — Computer Science Engineering</h3><p>Al-Falah University</p><p>Completed 2022 · First Division</p></div><div class="card"><h3>Class X — CBSE</h3><p>Govt. Sarvodaya Bal Vidyalaya, Khajuri Khas, Delhi</p><p>Completed 2018</p></div></div></section>
-    <section id="certifications"><div class="eyebrow">04 / Certificates</div><h2>Completed courses</h2><div class="grid"><div class="card"><h3>Endpoint Security</h3><p>Cisco Networking Academy · October 2026</p></div><div class="card"><h3>Introduction to Cybersecurity</h3><p>Cisco Networking Academy · October 2026</p></div><div class="card"><h3>Data Science & Analytics</h3><p>HP LIFE · December 2025</p></div></div><p>Course completion certificates; not presented as professional licenses or industry work experience.</p></section>
-    <section id="contact"><div class="eyebrow">05 / Contact</div><h2>Let's connect.</h2><p>I'm interested in internships, practical learning and research collaboration in DFIR, Digital Forensics and Malware Analysis.</p><div class="actions"><a class="btn" href="mailto:abdulrehman.dfir@gmail.com">Email Me</a><a class="btn secondary" href="https://www.linkedin.com/in/abdul-rehman-dfir/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></section>
+
+<section id="projects">
+  <div class="eyebrow">03 / Projects</div>
+  <h2>Hands-on DFIR Projects</h2>
+
+  <article class="card research">
+    <span class="pill">Working Python Prototype</span>
+    <h3>DFIR Behavioral Report Analyzer</h3>
+
+    <p>
+      Developed a Python-based prototype that extracts
+      process, file, registry, and network artifacts
+      from structured, Cuckoo-style JSON reports.
+      Generates forensic summaries, HTML reports,
+      and timestamp-aware behavioral timelines.
+    </p>
+
+    <p>
+      <strong style="color:var(--txt)">Validation:</strong>
+      9 automated tests passed on Kali Linux.
+      Tested using synthetic training data.
+      Real sandbox integration is planned.
+    </p>
+
+    <div class="chips">
+      <span class="chip">Python</span>
+      <span class="chip">Digital Forensics</span>
+      <span class="chip">JSON Analysis</span>
+      <span class="chip">Behavioral Timeline</span>
+    </div>
+
+    <p>
+      <a href="https://github.com/abdulrehman-dfir/cuckoo-dynamic-malware-analysis/tree/main/prototype/dfir-report-analyzer"
+         target="_blank" rel="noopener noreferrer">
+        View Source Code on GitHub ↗
+      </a>
+    </p>
+  </article>
+</section>
+    <section id="education"><div class="eyebrow">04 / Education</div><h2>Academic journey</h2><div class="grid"><div class="card"><h3>M.Tech — Computer Science & Engineering</h3><p>Graphic Era Hill University</p><p>2025 – Present · Pursuing</p></div><div class="card"><h3>B.Tech — Computer Science Engineering</h3><p>Glocal University</p><p>Completed 2025 · First Division</p></div><div class="card"><h3>Diploma — Computer Science Engineering</h3><p>Al-Falah University</p><p>Completed 2022 · First Division</p></div><div class="card"><h3>Class X — CBSE</h3><p>Govt. Sarvodaya Bal Vidyalaya, Khajuri Khas, Delhi</p><p>Completed 2018</p></div></div></section>
+    <section id="certifications"><div class="eyebrow">05 / Certificates</div><h2>Completed courses</h2><div class="grid"><div class="card"><h3>Endpoint Security</h3><p>Cisco Networking Academy · October 2026</p></div><div class="card"><h3>Introduction to Cybersecurity</h3><p>Cisco Networking Academy · October 2026</p></div><div class="card"><h3>Data Science & Analytics</h3><p>HP LIFE · December 2025</p></div></div><p>Course completion certificates; not presented as professional licenses or industry work experience.</p></section>
+    <section id="contact"><div class="eyebrow">06 / Contact</div><h2>Let's connect.</h2><p>I'm interested in internships, practical learning and research collaboration in DFIR, Digital Forensics and Malware Analysis.</p><div class="actions"><a class="btn" href="mailto:abdulrehman.dfir@gmail.com">Email Me</a><a class="btn secondary" href="https://www.linkedin.com/in/abdul-rehman-dfir/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></section>
   </main>
   <footer><div class="wrap">© 2026 Abdul Rehman · Built with HTML & CSS · Hosted with GitHub Pages</div></footer>
 </body>
